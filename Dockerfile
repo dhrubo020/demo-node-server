@@ -11,7 +11,7 @@ RUN yarn
 COPY . .
 
 # run on port
-EXPOSE 3000
+EXPOSE 5000
 
 # same as nodejs run > node index.js
 CMD ["node","index.js"]
