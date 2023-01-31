@@ -15,3 +15,6 @@ EXPOSE 5000
 
 # same as nodejs run > node index.js
 CMD ["node","index.js"]
+
+# docker build -t demo-server .
+# docker run -d -it -p 5000:5000 --name=demo-server demo-server
